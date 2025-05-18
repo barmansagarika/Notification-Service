@@ -67,7 +67,9 @@ python app.py
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/` | GET | Basic health check/welcome endpoint |
+| `/` | GET | Basic health check and API information |
+| `/notifications` | POST | Create and send a new notification |
+| `/users/<user_id>/notifications` | GET | Retrieve all notifications for a specific user |
 
 
 ## Data Structure
